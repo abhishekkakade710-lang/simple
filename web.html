@@ -3,9 +3,158 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">Port<span>folio.</span></h2>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-content">
+            <h3>Hello, I'm</h3>
+            <h1>Your Name</h1>
+            <h2>I'm a <span>Web Developer</span></h2>
+
+            <p>
+                Welcome to my portfolio! I create beautiful, responsive,
+                and user-friendly websites using modern web technologies.
+            </p>
+
+            <div class="buttons">
+                <a href="#projects" class="btn">View My Work</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+        </div>
+
+        <div class="home-image">
+            <img
+                src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500"
+                alt="Profile photo"
+            >
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="section-title">About <span>Me</span></h2>
+
+        <div class="about-content">
+            <h3>Web Developer & Designer</h3>
+
+            <p>
+                I am a passionate web developer who enjoys building
+                creative and responsive websites. I love learning new
+                technologies and turning ideas into reality.
+                My goal is to create websites that look great and
+                provide an excellent user experience.
+            </p>
+
+            <a href="#contact" class="btn">Let's Talk</a>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2 class="section-title">My <span>Skills</span></h2>
+
+        <div class="skills-container">
+            <div class="skill-card">
+                <h3>HTML</h3>
+                <p>Creating structured web pages.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>CSS</h3>
+                <p>Designing beautiful website layouts.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>JavaScript</h3>
+                <p>Adding interactive website features.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Responsive Design</h3>
+                <p>Building websites for all screen sizes.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="section-title">My <span>Projects</span></h2>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+                <div class="project-icon">🌐</div>
+                <h3>Portfolio Website</h3>
+                <p>
+                    A personal website showcasing my skills,
+                    experience, and projects.
+                </p>
+                <a href="#contact">Learn More →</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-icon">🛒</div>
+                <h3>E-Commerce Website</h3>
+                <p>
+                    An online shopping website with a clean
+                    and user-friendly design.
+                </p>
+                <a href="#contact">Learn More →</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-icon">💻</div>
+                <h3>Landing Page</h3>
+                <p>
+                    A modern landing page designed to present
+                    a product or service.
+                </p>
+                <a href="#contact">Learn More →</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Contact <span>Me</span></h2>
+
+        <p>Have a project in mind? Let's work together!</p>
+
+        <div class="contact-info">
+            <p>Email: yourname@example.com</p>
+            <p>Location: Your City, Your Country</p>
+        </div>
+
+        <a href="mailto:yourname@example.com" class="btn">
+            Send Me an Email
+        </a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Your Name | All Rights Reserved.</p>
+    </footer>
+
 </body>
 </html>
